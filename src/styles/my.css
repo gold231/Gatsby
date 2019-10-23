@@ -1,0 +1,155 @@
+
+#nav{
+	width: 100%;	
+	color: #fff;
+	font-size: 17px;
+	height: 78px;
+	background-color: #002fbb;
+}
+#nav > div{
+	float: left;
+	padding: 26px;
+	
+}
+#nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#nav ul li{
+	float: right;
+	margin-right: 50px;
+}
+.signup{
+	color: #2c2d65;
+	padding: 5px;
+	background-color: #fff;
+	border-radius: 4px;
+	border: none;
+}
+.login{
+	color: #fff;
+	padding: 5px;
+	background-color: #0044ff;
+	border-radius: 4px;
+	border: none;
+}
+button{
+	position: relative;
+	top: -6px;
+}
+#nav ul li a{
+	color: #fff;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  color: #22206b;
+  
+}
+#nav ul li .dropdown-content li{
+	float: left;
+	padding: 5px;
+	position: relative;
+}
+#nav ul li .dropdown-content li:after{
+	position: absolute;
+	top: 3px;
+	left:132px;
+	float: right;
+	content: ">";
+}
+#nav ul li .dropdown-content li a{
+	color: #22206b;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#content{
+	padding-top: 250px;
+	text-align: center;
+	background-color: #003dee;
+	height: 700px;
+	color:  #fff;
+}
+.demo{
+	position: relative;
+	
+}
+.demo:before{
+	position: absolute;
+	left: 100px;
+	top: -48px;
+	content: "";
+	width: 65px;
+	height: 116px;
+	background: url("../images/triangle.png") no-repeat;
+	background-size: 100%;
+}
+.demo:after{
+	position: absolute;
+	left: 1200px;
+	top: -48px;
+	content: "";
+	width: 36px;
+	height: 36px;
+	background: url("../images/yellocircle.png") no-repeat;
+	background-size: 100%;
+}
+.with{
+	position: relative;
+	margin-bottom: 70px;
+}
+.with:before{
+	position: absolute;
+	left: 500px;
+	top: -3px;
+	content: "<-";
+	color: #fff;
+	
+}
+.with:after{
+	position: absolute;
+	left: 797px;
+	top: -3px;
+	content: "->";
+	color: #fff;
+}
+#content p{
+	font-size: 23px;
+}
+.assem{
+	position: relative;
+	
+}
+.assem:before{
+	position: absolute;
+	left: 295px;
+	top: 15px;
+	content: "";
+	width: 36px;
+	height: 36px;
+	background: url("../images/redcircle.png") no-repeat;
+	background-size: 100%;
+}
+.assem:after{
+	position: absolute;
+	left: 1200px;
+	top: -48px;
+	content: "";
+	width: 65px;
+	height: 116px;
+	background: url("../images/greentriangle.png") no-repeat;
+	background-size: 100%;
+}
