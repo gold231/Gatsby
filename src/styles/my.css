@@ -80,16 +80,19 @@ button{
 	padding-top: 250px;
 	text-align: center;
 	background-color: #003dee;
-	height: 700px;
+	height: 750px;
 	color:  #fff;
+
 }
 .demo{
 	position: relative;
+	width: 520px;
+	margin: auto;
 	
 }
 .demo:before{
 	position: absolute;
-	left: 100px;
+	left: -220px;
 	top: -48px;
 	content: "";
 	width: 65px;
@@ -99,7 +102,7 @@ button{
 }
 .demo:after{
 	position: absolute;
-	left: 1200px;
+	left: 670px;
 	top: -48px;
 	content: "";
 	width: 36px;
@@ -108,34 +111,39 @@ button{
 	background-size: 100%;
 }
 .with{
-	position: relative;
+	position: relative;	
+	width: 245px;
+	margin: auto;
 	margin-bottom: 70px;
 }
 .with:before{
 	position: absolute;
-	left: 500px;
+	left: -50px;
 	top: -3px;
 	content: "<-";
 	color: #fff;
-	
+	width: 50px;
 }
 .with:after{
 	position: absolute;
-	left: 797px;
-	top: -3px;
-	content: "->";
-	color: #fff;
+    left: 300px;
+    top: -3px;
+    content: "->";
+    color: #fff;
+    width: 50px;
 }
 #content p{
 	font-size: 23px;
 }
 .assem{
 	position: relative;
+	width: 510px;
+	margin: auto;
 	
 }
 .assem:before{
 	position: absolute;
-	left: 295px;
+	left: -130px;
 	top: 15px;
 	content: "";
 	width: 36px;
@@ -145,11 +153,31 @@ button{
 }
 .assem:after{
 	position: absolute;
-	left: 1200px;
+	left: 750px;
 	top: -48px;
 	content: "";
 	width: 65px;
 	height: 116px;
 	background: url("../images/greentriangle.png") no-repeat;
 	background-size: 100%;
+}
+.btn{
+	text-align: center;
+	margin-top: 160px;
+
+}
+.btn button{
+	font-size: 17px;
+	float: left;
+	padding:10px;
+	border: none;
+	border-radius: 3px;
+}
+.try{
+	margin-right: 20px;
+	color: #2c2c76;
+}
+.learn{
+	color: #fff;
+	background-color: #0045fc;
 }

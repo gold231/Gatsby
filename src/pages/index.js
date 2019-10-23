@@ -9,7 +9,10 @@ export default () => (
 			<h1 className="demo">DEMOCRATIZING SCIENCE</h1> 
 			<h1 className="with"> WITH DATA </h1>
 			<p className="assem">At Assemble, we build fast,secure, and accessible<br />solutions for data tranfer,exchange, and sharing</p>
-			
+			<div className="btn">
+				<button className="try">Try for Free</button>
+				<button className="learn">Learn More</button>
+			</div>
 		</div>
 	</div>
 )
